@@ -1,0 +1,9 @@
+# Project git ignore
+
+#intelliJ ignore
+.idea
+out/
+*.iml
+
+#UML diagram project files
+*.mdj
