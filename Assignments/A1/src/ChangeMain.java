@@ -2,9 +2,9 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
+ * A main program to demonstrate the Change class using input from a user.
  * @author  :   Andrew Dichabeng
- * file     :   ChangeMain.java
- * description  :   A main program to demonstrate the Change class using input from a user.
+ * @version :   1.0
  */
 
 public class ChangeMain {

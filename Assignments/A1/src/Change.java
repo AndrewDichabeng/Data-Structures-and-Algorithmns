@@ -1,13 +1,13 @@
 /**
+ * A class to convert a cent amount and compute the possible combinations that the amount can be give
+ * as change in the following denominations :
+ *    {PENNY = $ 0.01, NICKEL = $ 0.05, DIME = $ 0.10, QUARTER = $ 0.25 }
  * @author  :   Andrew Dichabeng
- * file     :   Change.java
- * description  :   A class to convert a cent amount and compute the possible combinations that the amount can be give
- *                  as change in the following denominations :
- *                  {PENNY = $ 0.01, NICKEL = $ 0.05, DIME = $ 0.10, QUARTER = $ 0.25 }
+ * @version :   1.0
  */
 public class Change {
 
-    // Constants
+    /* constants */
     private static final int PENNY_VALUE = 1;
     private static final int NICKEL_VALUE = 5;
     private static final int DIME_VALUE = 10;
@@ -15,7 +15,7 @@ public class Change {
     private static final int[] COIN_ARRAY = {PENNY_VALUE, NICKEL_VALUE, DIME_VALUE, QUARTER_VALUE};
     private static final int DEFAULT_INDEX = 0;     /* NOTE :   Do not change the default index */
 
-    // Instance Variables
+    /* instance variables */
     private int amount;
     private int counter;
 

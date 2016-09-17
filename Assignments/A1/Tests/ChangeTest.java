@@ -3,9 +3,9 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
+ * This file conducts unit testing for the Change class.
  * @author  :   Andrew Dichabeng
- * file     :   ChangeTest
- * description  :   This file conducts unit testing for the Change class.
+ * @version :   1.0
  */
 
 public class ChangeTest {
